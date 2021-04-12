@@ -6,6 +6,7 @@ export default {
     'About',
     'Prerequisites',
     'Hello World',
+    'R.A.D. Examples',
     'Coming Soon',
   ]
 }
