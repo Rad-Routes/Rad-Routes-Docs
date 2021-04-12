@@ -65,7 +65,7 @@ const config = {
         eb: 'master',
         'edit-branch': 'master',
         config: '',
-        title: 'R.A.D. Routes Documentation',
+        title: ['R.A.D. Routes Documentation'],
         description: 'My awesome app using docz',
         host: 'localhost',
         port: 3000,
