@@ -1,58 +1,37 @@
 {
   "config": {
-    "title": "R.A.D. Routes Documentation",
-    "description": "R.A.D. Routes Documentation",
-    "menu": [],
+    "title": [
+      "R.A.D. Routes Documentation"
+    ],
+    "description": "My awesome app using docz",
+    "menu": [
+      "About",
+      "Prerequisites",
+      "Hello World",
+      "Coming Soon"
+    ],
     "version": "2.0.0-rc.41",
     "repository": null,
     "native": false,
     "themeConfig": {},
     "separator": "-",
-    "typescript": true
+    "typescript": true,
+    "ignore": [
+      "README.md"
+    ]
   },
   "entries": [
     {
-      "key": "README.md",
-      "value": {
-        "id": "04c6e90faac2675aa89e2176d2eec7d8",
-        "filepath": "README.md",
-        "fullpath": "C:\\Users\\Beast\\Desktop\\code\\React\\rrdocz\\README.md",
-        "link": "",
-        "hidden": false,
-        "slug": "readme",
-        "route": "/readme",
-        "name": "Readme",
-        "menu": "",
-        "headings": [
-          {
-            "slug": "rad-routes",
-            "depth": 1,
-            "value": "Rad Routes"
-          },
-          {
-            "slug": "rad-routes-is-an-evolution-of-useless-api",
-            "depth": 2,
-            "value": "Rad Routes is an evolution of  UseLess API"
-          },
-          {
-            "slug": "rad-routes-cli-installer",
-            "depth": 2,
-            "value": "Rad Routes CLI Installer"
-          }
-        ]
-      }
-    },
-    {
       "key": "src/ComingSoon.mdx",
       "value": {
+        "name": "Coming Soon",
+        "route": "/ComingSoon",
         "id": "7f0b197300c5e83c5cccf55e482de95e",
         "filepath": "src/ComingSoon.mdx",
         "fullpath": "C:\\Users\\Beast\\Desktop\\code\\React\\rrdocz\\src\\ComingSoon.mdx",
         "link": "",
         "hidden": false,
         "slug": "src-coming-soon",
-        "route": "/src-coming-soon",
-        "name": "Coming soon",
         "menu": "",
         "headings": [
           {
@@ -103,14 +82,19 @@
         "menu": "",
         "headings": [
           {
-            "slug": "what-is-rad-routes",
+            "slug": "what-is-a-rad-route",
             "depth": 1,
-            "value": "What is R.A.D. Routes?"
+            "value": "What is a R.A.D. Route?"
           },
           {
             "slug": "use-case",
             "depth": 2,
             "value": "Use Case"
+          },
+          {
+            "slug": "some-example-use-cases-are",
+            "depth": 3,
+            "value": "Some example use cases are:"
           },
           {
             "slug": "current-supported-languages",
