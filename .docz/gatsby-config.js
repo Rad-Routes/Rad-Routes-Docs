@@ -20,7 +20,7 @@ const config = {
 
   siteMetadata: {
     title: 'R.A.D. Routes Documentation',
-    description: 'R.A.D. Routes Documentation',
+    description: 'My awesome app using docz',
   },
   plugins: [
     {
@@ -39,10 +39,10 @@ const config = {
         themesDir: 'src',
         mdxExtensions: ['.md', '.mdx'],
         docgenConfig: {},
-        menu: [],
+        menu: ['About', 'Prerequisites', 'Hello World', 'Coming Soon'],
         mdPlugins: [],
         hastPlugins: [],
-        ignore: [],
+        ignore: ['README.md'],
         typescript: true,
         ts: false,
         propsParser: true,
@@ -66,7 +66,7 @@ const config = {
         'edit-branch': 'master',
         config: '',
         title: 'R.A.D. Routes Documentation',
-        description: 'R.A.D. Routes Documentation',
+        description: 'My awesome app using docz',
         host: 'localhost',
         port: 3000,
         p: 3000,
