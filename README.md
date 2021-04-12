@@ -1,29 +1,11 @@
-# Typescript Docz example
+# Rad Routes
 
-## Using `create-docz-app`
+![Rad Routes Logo](https://i.ibb.co/y0gF3LF/logo512.png)
 
-```sh
-npx create-docz-app docz-app-typescript --example typescript
-# or
-yarn create docz-app docz-app-typescript --example typescript
-```
+## Rad Routes is an evolution of [UseLess API](https://uselessapi.com)
+Rad Routes, and the Rad Routes Runner client is meant to make code sharing and remote code execution as easy as it can be.
 
-## Download manually
+## Rad Routes CLI Installer
+Rad Routes has a CLI tool where you can execute all rad routes commands via simple CLI commands
 
-```sh
-curl https://codeload.github.com/doczjs/docz/tar.gz/master | tar -xz --strip=2 docz-master/examples/typescript
-mv typescript docz-typescript-example
-cd docz-typescript-example
-```
-
-## Setup
-
-```sh
-yarn # npm i
-```
-
-## Run
-
-```sh
-yarn dev # npm run dev
-```
+First install the Rad Routes Runner CLI  ==> [Here](https://radroutes.com/Downloads)
