@@ -180,19 +180,34 @@
             "value": "Prerequisites"
           },
           {
-            "slug": "web-platform",
+            "slug": "languages",
             "depth": 2,
+            "value": "Languages"
+          },
+          {
+            "slug": "radroutescom",
+            "depth": 2,
+            "value": "RADRoutes.com"
+          },
+          {
+            "slug": "web-platform",
+            "depth": 3,
             "value": "Web Platform"
           },
           {
-            "slug": "cli-runner",
+            "slug": "rad-route-runner",
             "depth": 2,
-            "value": "CLI Runner"
+            "value": "R.A.D. Route Runner"
           },
           {
-            "slug": "cli-runner-installation",
+            "slug": "cli",
+            "depth": 3,
+            "value": "CLI"
+          },
+          {
+            "slug": "rad-route-runner-installation",
             "depth": 1,
-            "value": "CLI Runner Installation"
+            "value": "R.A.D. Route Runner Installation"
           },
           {
             "slug": "macos-app-installation",
