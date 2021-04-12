@@ -53,9 +53,35 @@
       }
     },
     {
+      "key": "src/helloWorld.mdx",
+      "value": {
+        "name": "Hello World",
+        "route": "/HelloWorld",
+        "id": "58aae40d6c8c939ed985e9a6f19b07a3",
+        "filepath": "src/helloWorld.mdx",
+        "fullpath": "C:\\Users\\Beast\\Desktop\\code\\React\\rrdocz\\src\\helloWorld.mdx",
+        "link": "",
+        "hidden": false,
+        "slug": "src-hello-world",
+        "menu": "",
+        "headings": [
+          {
+            "slug": "rad-routes-hello-world",
+            "depth": 1,
+            "value": "R.A.D. Routes Hello World"
+          },
+          {
+            "slug": "python-example",
+            "depth": 2,
+            "value": "Python example"
+          }
+        ]
+      }
+    },
+    {
       "key": "src/index.mdx",
       "value": {
-        "name": "Getting Started",
+        "name": "About",
         "route": "/",
         "id": "6576455a124f9aaefd860597f03a8fe4",
         "filepath": "src/index.mdx",
@@ -66,216 +92,69 @@
         "menu": "",
         "headings": [
           {
-            "slug": "getting-started",
+            "slug": "what-is-rad-routes",
             "depth": 1,
-            "value": "Getting Started"
+            "value": "What is R.A.D. Routes?"
           },
           {
-            "slug": "consistency",
+            "slug": "use-case",
             "depth": 2,
-            "value": "Consistency"
+            "value": "Use Case"
+          },
+          {
+            "slug": "current-supported-languages",
+            "depth": 2,
+            "value": "Current Supported Languages"
+          },
+          {
+            "slug": "version",
+            "depth": 2,
+            "value": "Version"
           }
         ]
       }
     },
     {
-      "key": "src/components/Alert.mdx",
+      "key": "src/prereq.mdx",
       "value": {
-        "name": "Alert",
-        "menu": "Components",
-        "id": "411d2842c3d65e6ee7d3ec119ed4c5a0",
-        "filepath": "src/components/Alert.mdx",
-        "fullpath": "C:\\Users\\Beast\\Desktop\\code\\React\\rrdocz\\src\\components\\Alert.mdx",
+        "name": "Prerequisites",
+        "route": "/Prerequisites",
+        "id": "a7b31d38845c78c1dd67ef99a49e10e0",
+        "filepath": "src/prereq.mdx",
+        "fullpath": "C:\\Users\\Beast\\Desktop\\code\\React\\rrdocz\\src\\prereq.mdx",
         "link": "",
         "hidden": false,
-        "slug": "src-components-alert",
-        "route": "/src-components-alert",
+        "slug": "src-prereq",
+        "menu": "",
         "headings": [
           {
-            "slug": "alert",
+            "slug": "prerequisites",
             "depth": 1,
-            "value": "Alert"
+            "value": "Prerequisites"
           },
           {
-            "slug": "properties",
+            "slug": "web-platform",
             "depth": 2,
-            "value": "Properties"
+            "value": "Web Platform"
           },
           {
-            "slug": "basic-usage",
+            "slug": "cli-runner",
             "depth": 2,
-            "value": "Basic usage"
+            "value": "CLI Runner"
           },
           {
-            "slug": "using-different-kinds",
+            "slug": "cli-runner-installation",
             "depth": 2,
-            "value": "Using different kinds"
-          }
-        ]
-      }
-    },
-    {
-      "key": "src/components/Button.mdx",
-      "value": {
-        "name": "Button",
-        "menu": "Components",
-        "id": "94c04b4e4bd29ffbdeec8755c1a4c04f",
-        "filepath": "src/components/Button.mdx",
-        "fullpath": "C:\\Users\\Beast\\Desktop\\code\\React\\rrdocz\\src\\components\\Button.mdx",
-        "link": "",
-        "hidden": false,
-        "slug": "src-components-button",
-        "route": "/src-components-button",
-        "headings": [
-          {
-            "slug": "button",
-            "depth": 1,
-            "value": "Button"
+            "value": "CLI Runner Installation"
           },
           {
-            "slug": "best-practices",
+            "slug": "macos",
             "depth": 3,
-            "value": "Best practices"
-          },
-          {
-            "slug": "properties",
-            "depth": 2,
-            "value": "Properties"
-          },
-          {
-            "slug": "basic-usage",
-            "depth": 2,
-            "value": "Basic usage"
-          },
-          {
-            "slug": "with-different-sizes",
-            "depth": 2,
-            "value": "With different sizes"
-          },
-          {
-            "slug": "with-different-colors",
-            "depth": 2,
-            "value": "With different colors"
-          },
-          {
-            "slug": "outlined",
-            "depth": 2,
-            "value": "Outlined"
+            "value": "MacOS"
           }
         ]
       }
     }
   ],
-  "props": [
-    {
-      "key": "src/components/Alert.tsx",
-      "value": [
-        {
-          "tags": {},
-          "description": "",
-          "displayName": "Alert",
-          "methods": [],
-          "props": {
-            "kind": {
-              "defaultValue": {
-                "value": "info"
-              },
-              "description": "Set this to change alert kind",
-              "name": "kind",
-              "parent": {
-                "fileName": "src/components/Alert.tsx",
-                "name": "AlertProps"
-              },
-              "declarations": [
-                {
-                  "fileName": "src/components/Alert.tsx",
-                  "name": "AlertProps"
-                }
-              ],
-              "required": true,
-              "type": {
-                "name": "\"info\" | \"positive\" | \"negative\" | \"warning\""
-              }
-            }
-          }
-        }
-      ]
-    },
-    {
-      "key": "src/components/Button.tsx",
-      "value": [
-        {
-          "tags": {},
-          "description": "",
-          "displayName": "Button",
-          "methods": [],
-          "props": {
-            "scale": {
-              "defaultValue": {
-                "value": "normal"
-              },
-              "description": "",
-              "name": "scale",
-              "parent": {
-                "fileName": "src/components/Button.tsx",
-                "name": "ButtonProps"
-              },
-              "declarations": [
-                {
-                  "fileName": "src/components/Button.tsx",
-                  "name": "ButtonProps"
-                }
-              ],
-              "required": false,
-              "type": {
-                "name": "\"small\" | \"normal\" | \"big\""
-              }
-            },
-            "kind": {
-              "defaultValue": {
-                "value": "primary"
-              },
-              "description": "",
-              "name": "kind",
-              "parent": {
-                "fileName": "src/components/Button.tsx",
-                "name": "ButtonProps"
-              },
-              "declarations": [
-                {
-                  "fileName": "src/components/Button.tsx",
-                  "name": "ButtonProps"
-                }
-              ],
-              "required": false,
-              "type": {
-                "name": "\"primary\" | \"secondary\" | \"cancel\" | \"dark\" | \"gray\""
-              }
-            },
-            "outline": {
-              "defaultValue": {
-                "value": false
-              },
-              "description": "",
-              "name": "outline",
-              "parent": {
-                "fileName": "src/components/Button.tsx",
-                "name": "ButtonProps"
-              },
-              "declarations": [
-                {
-                  "fileName": "src/components/Button.tsx",
-                  "name": "ButtonProps"
-                }
-              ],
-              "required": false,
-              "type": {
-                "name": "boolean"
-              }
-            }
-          }
-        }
-      ]
-    }
-  ]
+  "props": []
 }
