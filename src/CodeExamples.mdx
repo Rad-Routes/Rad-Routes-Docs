@@ -8,7 +8,7 @@ route: /RADExamples
 
 ## Dr. Quine Medicine
 
-There will be examples of usefule and fun R.A.D. Routes here, such as this fun quine:
+Here is an example of a fun litte R.A.D. Route quine:
 
 Simply running;
 
@@ -16,4 +16,55 @@ Simply running;
 rr -r q2
 ```
 
-Will produce the source code, which is a child process that spawns, and runs it's own R.A.D. Route. It will proceed to execute itself again every 2 seconds.
+Will produce the source code, which is a child process that spawns, and runs it's own R.A.D. Route. It will proceed to execute and kill itself again every 2 seconds.
+
+Lets take a look at the source code from ***Dr. Quine "Medicine Man"***
+
+```
+const { exec } = require('child_process');
+
+let exe = ()=> {exec(`rr -r q2`, (error, stdout, stderr) => {
+    
+    console.log(stdout)
+    
+    console.error(stderr)
+    
+    console.error(error)
+    })}
+setTimeout(() => {
+    
+exe()
+  
+}, 2000);
+```
+
+This code imports the child_process module in node, and then runs its own R.A.D. Route. This child_process is never killed so the first one will keep its print out, while the new child_process run in the backround.
+
+### Check your activity monitor on MacOS, or top on Linux, or Process Manager on Windows.
+
+In your process monitor runner manager, you can see how this Quine, and how R.A.D. Routes itselt runs.
+```
+--Python=>
+          Python=>
+                  node=>
+                        Python=>
+                        Python=>
+                                node=>
+                                      Python=>
+                                      Python=>
+                                               node=>
+                                                     Python=>
+                                                     Python=>
+                                                             node=>
+                                                                   Python=>
+                                                                   Python=>
+                                                                           node=>
+                                                                                  Python=>
+                                                                                  Python=>
+                                                                                          node=>...
+```
+The initial Runner is written in Python, it runs another Python runner to get your R.A.D. Route, and passes that request to node to execute.
+
+In this case the node process is invoking the original Python runner which restarts this loop.
+
+This process is repeated every 2 seconds until either the computer runs out of memory, or the process is killed.

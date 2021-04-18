@@ -39,6 +39,16 @@
             "slug": "rad-examples-coming-soon",
             "depth": 1,
             "value": "R.A.D. Examples Coming Soon"
+          },
+          {
+            "slug": "dr-quine-medicine",
+            "depth": 2,
+            "value": "Dr. Quine Medicine"
+          },
+          {
+            "slug": "check-your-activity-monitor-on-macos-or-top-on-linux-or-process-manager-on-windows",
+            "depth": 3,
+            "value": "Check your activity monitor on MacOS, or top on Linux, or Process Manager on Windows."
           }
         ]
       }
@@ -235,6 +245,21 @@
             "value": "Post Installation"
           }
         ]
+      }
+    },
+    {
+      "key": "src/ReturnHome.mdx",
+      "value": {
+        "name": "Retun to RADRoutes.com",
+        "route": "https://radroutes.com",
+        "id": "583dd9ceb599dcdb020e040cfed6b004",
+        "filepath": "src/ReturnHome.mdx",
+        "fullpath": "C:\\Users\\Beast\\Desktop\\code\\React\\rrdocz\\src\\ReturnHome.mdx",
+        "link": "",
+        "hidden": false,
+        "slug": "src-return-home",
+        "menu": "",
+        "headings": []
       }
     }
   ],
